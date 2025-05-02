@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rigging & Hoisting Mobile Quiz</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 10px; font-size: 18px; }
+    .question { padding: 15px; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 20px; }
+    .result { font-weight: bold; font-size: 20px; margin-top: 30px; }
+    .feedback { font-style: italic; color: #555; margin-top: 5px; }
+    button { padding: 15px 25px; font-size: 20px; width: 100%; }
+    input[type="radio"] { transform: scale(1.5); margin-right: 10px; }
+  </style>
+</head>
+<body>
+  <h2>Rigging & Hoisting Quiz</h2>
+  <form id="quizForm">
+    <div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">1. What is the safety factor used for wire rope sling capacities?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q0" value="5:1" style="transform: scale(1.5); margin-right: 10px;"> 5:1</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q0" value="6:1" style="transform: scale(1.5); margin-right: 10px;"> 6:1</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q0" value="7:1" style="transform: scale(1.5); margin-right: 10px;"> 7:1</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q0" value="4:1" style="transform: scale(1.5); margin-right: 10px;"> 4:1</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">2. True or False: A basket hitch can hold more load than a vertical hitch.</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q1" value="True" style="transform: scale(1.5); margin-right: 10px;"> True</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q1" value="False" style="transform: scale(1.5); margin-right: 10px;"> False</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">3. Which color round sling has the lowest vertical capacity?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q2" value="Green" style="transform: scale(1.5); margin-right: 10px;"> Green</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q2" value="Purple" style="transform: scale(1.5); margin-right: 10px;"> Purple</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q2" value="Blue" style="transform: scale(1.5); margin-right: 10px;"> Blue</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q2" value="Yellow" style="transform: scale(1.5); margin-right: 10px;"> Yellow</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">4. What type of wire rope is used for slings between 1/4" to 1" in size?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q3" value="6 x 37 I.W.R.C." style="transform: scale(1.5); margin-right: 10px;"> 6 x 37 I.W.R.C.</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q3" value="6 x 19 I.W.R.C." style="transform: scale(1.5); margin-right: 10px;"> 6 x 19 I.W.R.C.</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q3" value="6 x 24 F.C." style="transform: scale(1.5); margin-right: 10px;"> 6 x 24 F.C.</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q3" value="8 x 19 I.W.R.C." style="transform: scale(1.5); margin-right: 10px;"> 8 x 19 I.W.R.C.</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">5. At 60° sling angle, does the rated capacity increase or decrease?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q4" value="Increase" style="transform: scale(1.5); margin-right: 10px;"> Increase</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q4" value="Decrease" style="transform: scale(1.5); margin-right: 10px;"> Decrease</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">6. What is the vertical capacity of a 3/4" wire rope sling?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q5" value="7,000 lbs" style="transform: scale(1.5); margin-right: 10px;"> 7,000 lbs</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q5" value="8,080 lbs" style="transform: scale(1.5); margin-right: 10px;"> 8,080 lbs</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q5" value="9,000 lbs" style="transform: scale(1.5); margin-right: 10px;"> 9,000 lbs</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q5" value="6,000 lbs" style="transform: scale(1.5); margin-right: 10px;"> 6,000 lbs</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">7. What color is the round sling with the highest listed vertical capacity?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q6" value="Blue" style="transform: scale(1.5); margin-right: 10px;"> Blue</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q6" value="Grey" style="transform: scale(1.5); margin-right: 10px;"> Grey</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q6" value="Brown" style="transform: scale(1.5); margin-right: 10px;"> Brown</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q6" value="Red" style="transform: scale(1.5); margin-right: 10px;"> Red</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">8. What is a thimble used for in wire rope rigging?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q7" value="To increase strength" style="transform: scale(1.5); margin-right: 10px;"> To increase strength</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q7" value="To reduce weight" style="transform: scale(1.5); margin-right: 10px;"> To reduce weight</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q7" value="To protect the eye from wear" style="transform: scale(1.5); margin-right: 10px;"> To protect the eye from wear</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q7" value="To mark rope type" style="transform: scale(1.5); margin-right: 10px;"> To mark rope type</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">9. What component reduces pressure points on a load?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q8" value="Shackle" style="transform: scale(1.5); margin-right: 10px;"> Shackle</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q8" value="Turnbuckle" style="transform: scale(1.5); margin-right: 10px;"> Turnbuckle</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q8" value="Load softener" style="transform: scale(1.5); margin-right: 10px;"> Load softener</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q8" value="Eyebolt" style="transform: scale(1.5); margin-right: 10px;"> Eyebolt</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">10. What does SWL stand for?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q9" value="Standard Wire Length" style="transform: scale(1.5); margin-right: 10px;"> Standard Wire Length</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q9" value="Sling Width Limit" style="transform: scale(1.5); margin-right: 10px;"> Sling Width Limit</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q9" value="Safe Working Load" style="transform: scale(1.5); margin-right: 10px;"> Safe Working Load</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q9" value="Steel Wire Load" style="transform: scale(1.5); margin-right: 10px;"> Steel Wire Load</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">11. What is the working load limit reduction of Grade 80 chain at 700°F?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q10" value="10%" style="transform: scale(1.5); margin-right: 10px;"> 10%</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q10" value="20%" style="transform: scale(1.5); margin-right: 10px;"> 20%</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q10" value="30%" style="transform: scale(1.5); margin-right: 10px;"> 30%</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q10" value="50%" style="transform: scale(1.5); margin-right: 10px;"> 50%</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">12. What is used to connect a sling to a load or hook?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q11" value="Eyebolt" style="transform: scale(1.5); margin-right: 10px;"> Eyebolt</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q11" value="Padeye" style="transform: scale(1.5); margin-right: 10px;"> Padeye</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q11" value="Shackle" style="transform: scale(1.5); margin-right: 10px;"> Shackle</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q11" value="Turnbuckle" style="transform: scale(1.5); margin-right: 10px;"> Turnbuckle</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">13. What is the key inspection point on wire rope?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q12" value="Rust only" style="transform: scale(1.5); margin-right: 10px;"> Rust only</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q12" value="Color change" style="transform: scale(1.5); margin-right: 10px;"> Color change</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q12" value="Broken wires or kinks" style="transform: scale(1.5); margin-right: 10px;"> Broken wires or kinks</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q12" value="Dirt presence" style="transform: scale(1.5); margin-right: 10px;"> Dirt presence</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">14. What’s the main risk of using a sling at less than 45° angle?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q13" value="Twisting the sling" style="transform: scale(1.5); margin-right: 10px;"> Twisting the sling</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q13" value="Slippage" style="transform: scale(1.5); margin-right: 10px;"> Slippage</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q13" value="Overloading the sling" style="transform: scale(1.5); margin-right: 10px;"> Overloading the sling</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q13" value="Increasing stretch" style="transform: scale(1.5); margin-right: 10px;"> Increasing stretch</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">15. A sling used in a choker hitch can carry more than a vertical hitch. True or False?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q14" value="True" style="transform: scale(1.5); margin-right: 10px;"> True</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q14" value="False" style="transform: scale(1.5); margin-right: 10px;"> False</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">16. What kind of hitch surrounds the load completely?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q15" value="Vertical hitch" style="transform: scale(1.5); margin-right: 10px;"> Vertical hitch</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q15" value="Choker hitch" style="transform: scale(1.5); margin-right: 10px;"> Choker hitch</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q15" value="Basket hitch" style="transform: scale(1.5); margin-right: 10px;"> Basket hitch</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q15" value="Side pull hitch" style="transform: scale(1.5); margin-right: 10px;"> Side pull hitch</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">17. What is the capacity of a 2” wide, double-ply synthetic web sling in vertical configuration?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q16" value="3,800 lbs" style="transform: scale(1.5); margin-right: 10px;"> 3,800 lbs</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q16" value="4,500 lbs" style="transform: scale(1.5); margin-right: 10px;"> 4,500 lbs</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q16" value="5,200 lbs" style="transform: scale(1.5); margin-right: 10px;"> 5,200 lbs</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q16" value="6,400 lbs" style="transform: scale(1.5); margin-right: 10px;"> 6,400 lbs</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">18. What part of a crane should rest on load-bearing mats?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q17" value="Boom" style="transform: scale(1.5); margin-right: 10px;"> Boom</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q17" value="Counterweight" style="transform: scale(1.5); margin-right: 10px;"> Counterweight</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q17" value="Outriggers" style="transform: scale(1.5); margin-right: 10px;"> Outriggers</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q17" value="Cab" style="transform: scale(1.5); margin-right: 10px;"> Cab</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">19. What does a hand signal with one arm extended and moving up mean?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q18" value="Lower" style="transform: scale(1.5); margin-right: 10px;"> Lower</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q18" value="Boom up" style="transform: scale(1.5); margin-right: 10px;"> Boom up</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q18" value="Stop" style="transform: scale(1.5); margin-right: 10px;"> Stop</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q18" value="Hoist" style="transform: scale(1.5); margin-right: 10px;"> Hoist</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">20. What should be used under a crane’s outrigger on soft ground?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q19" value="Rubber mat" style="transform: scale(1.5); margin-right: 10px;"> Rubber mat</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q19" value="Blocking pad" style="transform: scale(1.5); margin-right: 10px;"> Blocking pad</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q19" value="Concrete block" style="transform: scale(1.5); margin-right: 10px;"> Concrete block</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q19" value="Wood wedge" style="transform: scale(1.5); margin-right: 10px;"> Wood wedge</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">21. What color sling indicates a 5,300 lb vertical capacity?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q20" value="Purple" style="transform: scale(1.5); margin-right: 10px;"> Purple</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q20" value="Green" style="transform: scale(1.5); margin-right: 10px;"> Green</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q20" value="Yellow" style="transform: scale(1.5); margin-right: 10px;"> Yellow</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q20" value="Red" style="transform: scale(1.5); margin-right: 10px;"> Red</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">22. Grade 100 chain slings carry more than Grade 80 at same size. True or False?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q21" value="True" style="transform: scale(1.5); margin-right: 10px;"> True</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q21" value="False" style="transform: scale(1.5); margin-right: 10px;"> False</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">23. What type of sling is shown as a loop without eyes?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q22" value="Web sling" style="transform: scale(1.5); margin-right: 10px;"> Web sling</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q22" value="Chain sling" style="transform: scale(1.5); margin-right: 10px;"> Chain sling</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q22" value="Grommet sling" style="transform: scale(1.5); margin-right: 10px;"> Grommet sling</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q22" value="Round sling" style="transform: scale(1.5); margin-right: 10px;"> Round sling</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">24. What material are synthetic round slings made from?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q23" value="Steel" style="transform: scale(1.5); margin-right: 10px;"> Steel</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q23" value="Cotton" style="transform: scale(1.5); margin-right: 10px;"> Cotton</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q23" value="Polyester or nylon" style="transform: scale(1.5); margin-right: 10px;"> Polyester or nylon</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q23" value="Hemp" style="transform: scale(1.5); margin-right: 10px;"> Hemp</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">25. What does a 'choker hitch' typically reduce the sling's capacity to?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q24" value="50%" style="transform: scale(1.5); margin-right: 10px;"> 50%</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q24" value="60%" style="transform: scale(1.5); margin-right: 10px;"> 60%</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q24" value="80%" style="transform: scale(1.5); margin-right: 10px;"> 80%</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q24" value="100%" style="transform: scale(1.5); margin-right: 10px;"> 100%</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">26. What is the effect of heat on alloy chains over 1000°F?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q25" value="Reduce capacity by 30%" style="transform: scale(1.5); margin-right: 10px;"> Reduce capacity by 30%</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q25" value="Use with caution" style="transform: scale(1.5); margin-right: 10px;"> Use with caution</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q25" value="Test for cracks" style="transform: scale(1.5); margin-right: 10px;"> Test for cracks</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q25" value="Remove from service" style="transform: scale(1.5); margin-right: 10px;"> Remove from service</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">27. What diameter eyebolt supports 10,000 lbs vertically?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q26" value="3/4 inch" style="transform: scale(1.5); margin-right: 10px;"> 3/4 inch</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q26" value="1 inch" style="transform: scale(1.5); margin-right: 10px;"> 1 inch</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q26" value="1-1/4 inch" style="transform: scale(1.5); margin-right: 10px;"> 1-1/4 inch</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q26" value="7/8 inch" style="transform: scale(1.5); margin-right: 10px;"> 7/8 inch</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">28. What should be done with a kinked wire rope?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q27" value="Use with care" style="transform: scale(1.5); margin-right: 10px;"> Use with care</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q27" value="Repair it" style="transform: scale(1.5); margin-right: 10px;"> Repair it</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q27" value="Remove from service" style="transform: scale(1.5); margin-right: 10px;"> Remove from service</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q27" value="Straighten and reuse" style="transform: scale(1.5); margin-right: 10px;"> Straighten and reuse</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">29. Which hitch can double the sling's capacity?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q28" value="Choker hitch" style="transform: scale(1.5); margin-right: 10px;"> Choker hitch</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q28" value="Basket hitch" style="transform: scale(1.5); margin-right: 10px;"> Basket hitch</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q28" value="Vertical hitch" style="transform: scale(1.5); margin-right: 10px;"> Vertical hitch</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q28" value="U-hitch" style="transform: scale(1.5); margin-right: 10px;"> U-hitch</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">30. A red round sling has a vertical capacity of?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q29" value="16,800 lbs" style="transform: scale(1.5); margin-right: 10px;"> 16,800 lbs</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q29" value="13,200 lbs" style="transform: scale(1.5); margin-right: 10px;"> 13,200 lbs</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q29" value="10,600 lbs" style="transform: scale(1.5); margin-right: 10px;"> 10,600 lbs</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q29" value="8,400 lbs" style="transform: scale(1.5); margin-right: 10px;"> 8,400 lbs</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">31. True or False: Shackles can be side-loaded safely.</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q30" value="True" style="transform: scale(1.5); margin-right: 10px;"> True</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q30" value="False" style="transform: scale(1.5); margin-right: 10px;"> False</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">32. What must be used with a chain sling to ensure ID?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q31" value="Hook" style="transform: scale(1.5); margin-right: 10px;"> Hook</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q31" value="Paint mark" style="transform: scale(1.5); margin-right: 10px;"> Paint mark</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q31" value="Tag" style="transform: scale(1.5); margin-right: 10px;"> Tag</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q31" value="Barcode" style="transform: scale(1.5); margin-right: 10px;"> Barcode</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">33. The part of the crane that extends to lift load is called the?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q32" value="Counterweight" style="transform: scale(1.5); margin-right: 10px;"> Counterweight</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q32" value="Boom" style="transform: scale(1.5); margin-right: 10px;"> Boom</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q32" value="Outrigger" style="transform: scale(1.5); margin-right: 10px;"> Outrigger</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q32" value="Cab" style="transform: scale(1.5); margin-right: 10px;"> Cab</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">34. What color round sling is rated for 2,650 lbs?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q33" value="Yellow" style="transform: scale(1.5); margin-right: 10px;"> Yellow</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q33" value="Green" style="transform: scale(1.5); margin-right: 10px;"> Green</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q33" value="Purple" style="transform: scale(1.5); margin-right: 10px;"> Purple</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q33" value="Tan" style="transform: scale(1.5); margin-right: 10px;"> Tan</label></div></div><div class="question" style="margin-bottom: 30px;"><h3 style="font-size: 20px;">35. The primary use of a toe board on scaffolding is?</h3><div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q34" value="Support weight" style="transform: scale(1.5); margin-right: 10px;"> Support weight</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q34" value="Protect feet" style="transform: scale(1.5); margin-right: 10px;"> Protect feet</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q34" value="Prevent tools from falling" style="transform: scale(1.5); margin-right: 10px;"> Prevent tools from falling</label></div>
+<div class="answers" style="margin-bottom: 10px;"><label style="font-size: 18px;"><input type="radio" name="q34" value="Secure boards" style="transform: scale(1.5); margin-right: 10px;"> Secure boards</label></div></div>
+    <button type="button" id="submitBtn">Submit</button>
+  </form>
+  <div id="result" class="result"></div>
+  <script>
+    const answers = {
+            0: "6:1",
+            1: "True",
+            2: "Purple",
+            3: "6 x 19 I.W.R.C.",
+            4: "Decrease",
+            5: "8,080 lbs",
+            6: "Brown",
+            7: "To protect the eye from wear",
+            8: "Load softener",
+            9: "Safe Working Load",
+            10: "30%",
+            11: "Shackle",
+            12: "Broken wires or kinks",
+            13: "Overloading the sling",
+            14: "False",
+            15: "Basket hitch",
+            16: "4,500 lbs",
+            17: "Outriggers",
+            18: "Hoist",
+            19: "Blocking pad",
+            20: "Green",
+            21: "True",
+            22: "Grommet sling",
+            23: "Polyester or nylon",
+            24: "About 80% of vertical",
+            25: "Remove from service",
+            26: "1 inch",
+            27: "Remove from service",
+            28: "Basket hitch",
+            29: "13,200 lbs",
+            30: "False",
+            31: "Identification tag",
+            32: "Boom",
+            33: "Purple",
+            34: "Prevent tools from falling"
+        };
+
+    function submitQuiz() {
+      let score = 0;
+      let total = Object.keys(answers).length;
+      let resultHTML = "";
+      for (let i = 0; i < total; i++) {
+        const selected = document.querySelector(`input[name="q${i}"]:checked`);
+        const correct = answers[i];
+        if (selected && selected.value === correct) {
+          score++;
+        }
+        resultHTML += `<p>Q${i+1}: <strong>${correct}</strong></p>`;
+      }
+      document.getElementById("result").innerHTML =
+        `<p>You scored <strong>${score} / ${total}</strong></p>` + resultHTML;
+      window.scrollTo(0, document.body.scrollHeight);
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      document.getElementById("submitBtn").addEventListener("click", submitQuiz);
+    });
+  </script>
+</body>
+</html>
